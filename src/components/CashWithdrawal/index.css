@@ -1,0 +1,170 @@
+/* Write your CSS here */
+
+@media (max-width: 768px) {
+  .main-bg {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+
+  .cashwithdrawal-card {
+    background-color: #150b3e;
+    font-family: roboto;
+    padding: 20px;
+    height: 470px;
+    width: 370px;
+    border-radius: 15px;
+  }
+
+  .name-card {
+    display: flex;
+    margin-left: 10px;
+  }
+  .circle-letter {
+    background-color: #c7d2fe;
+    color: #7c3aed;
+    font-size: 15px;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    border-radius: 25px;
+    padding-top: 15px;
+  }
+  .name {
+    color: #d4d2db;
+    font-size: 20px;
+    margin-top: 22px;
+    margin-left: 20px;
+  }
+
+  .balance-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 10px;
+  }
+  .yourbalance-text {
+    color: #382f5a;
+    font-size: 14px;
+    margin-top: 18px;
+  }
+  .amount-card {
+    display: flex;
+    flex-direction: column;
+  }
+  .amount {
+    color: #d4d2db;
+    font-size: 25px;
+    padding-left: 5px;
+  }
+  .rupee-text {
+    color: #382f5a;
+    font-size: 12px;
+  }
+
+  .withdraw-card {
+    margin-left: 10px;
+  }
+  .withdraw-text {
+    color: #d4d2db;
+    font-size: 22px;
+  }
+  .choose-text {
+    color: #382f5a;
+    font-size: 14px;
+  }
+
+  .withdrwal-btns-card {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: -40px;
+  }
+}
+
+@media (min-width: 768px) {
+  .main-bg {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+
+  .cashwithdrawal-card {
+    background-color: #150b3e;
+    font-family: roboto;
+    padding: 40px;
+    height: 600px;
+    width: 500px;
+    border-radius: 15px;
+  }
+
+  .name-card {
+    display: flex;
+    margin-left: 20px;
+  }
+  .circle-letter {
+    background-color: #c7d2fe;
+    color: #7c3aed;
+    font-size: 30px;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    border-radius: 50px;
+    padding-top: 33px;
+  }
+  .name {
+    color: #d4d2db;
+    font-size: 40px;
+    margin-top: 47px;
+    margin-left: 30px;
+  }
+
+  .balance-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 10px;
+  }
+  .yourbalance-text {
+    color: #382f5a;
+    font-size: 20px;
+    margin-top: 18px;
+  }
+  .amount-card {
+    display: flex;
+    flex-direction: column;
+  }
+  .amount {
+    color: #d4d2db;
+    font-size: 30px;
+    padding-left: 20px;
+  }
+  .rupee-text {
+    color: #382f5a;
+    font-size: 18px;
+    margin-top: -20px;
+  }
+
+  .withdraw-card {
+    margin-left: 10px;
+  }
+  .withdraw-text {
+    color: #d4d2db;
+    font-size: 28px;
+  }
+  .choose-text {
+    color: #382f5a;
+    font-size: 20px;
+  }
+
+  .withdrwal-btns-card {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: -39px;
+  }
+}
